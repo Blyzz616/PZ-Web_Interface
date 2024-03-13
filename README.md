@@ -20,5 +20,5 @@ A look-up is performed to fetch all the required data
 |  file size         | 66.326 KB                                                                                                                                                                   |
 |  posted            | 30 Dec, 2023 @ 11:00am                                                                                                                                                      |
 |  subscribe         | 131,089                                                                                                                                                                     |
-|  creator           | <a class="friendBlockLinkOverlay" href="https://steamcommunity.com/id/blyzz"></a>                                                                                         |
+|  creator           | &lt;a class="friendBlockLinkOverlay" href="https://steamcommunity.com/id/blyzz"&gt;&lt;/a&gt;                                                                                         |
 
