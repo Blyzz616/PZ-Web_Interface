@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <?php /* this is not a hack! */ ?>
   <div id="content">
     <h1>Server Settings</h1>
     <form id="settingsForm" class="form">
