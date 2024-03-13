@@ -22,3 +22,9 @@ A look-up is performed to fetch all the required data
 |  subscribe         | 131,089                                                                                                                                                                     |
 |  creator           | &lt;a class="friendBlockLinkOverlay" href="https://steamcommunity.com/id/blyzz"&gt;&lt;/a&gt;                                                                                         |
 
+To Do:
+[] Group relevant items
+  [] voice
+  [] radio
+  [] anti-cheat
+  [] anti-cheat multiplier
