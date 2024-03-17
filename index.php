@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <?php /* this is not a hack! */ ?>
   <div id="content">
     <h1>Server Settings</h1>
     <form id="settingsForm" class="form">
@@ -1167,5 +1166,6 @@
         <script src="js/radio.js"></script>
         <script src="js/checkbox.js"></script>
         <script src="js/textbox.js"></script>
+        <script src="js/scrape.js"></script>
 </body>
 </html>
