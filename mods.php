@@ -14,6 +14,3 @@
     <script src="js/buttons.js"></script>
 </body>
 </html>
-root@hub:/var/www/html#
-
-
