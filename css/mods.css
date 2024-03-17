@@ -1,0 +1,327 @@
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background-color: #333333; /* White background */
+}
+
+.container {
+    background-color: #333333; /* Dark grey background */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*.form {
+    max-width: 800px;
+    margin: 0;
+}
+*/
+.form div {
+    margin-bottom: 12px;
+}
+
+.form label {
+    display: block;
+    float: left;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.form input[type="checkbox"],
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="number"]{
+    cursor: default;
+    appearance: auto;
+    position: relative;
+    border-radius: 6px;
+    margin: 0 0 5px 0;
+/*    border: 2px solid #609;
+    padding: 20px;
+    width: 200px;
+    height: 15px;    */
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="number"]{
+  width: 580px;
+}
+
+.form textarea{
+  cursor: default;
+  appearance: auto;
+  position: relative;
+  width: 580px;
+  border-radius: 6px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.grid{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  background-color: #1d2533;
+  padding: 5px;
+}
+
+.column1{
+  margin-left:20px;
+}
+
+#content{
+  background: #1d2533;
+}
+
+
+.column1{
+  background: #454b54;
+  padding: 6px 0 6px 20px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.column2{
+  background: #454b54;
+  padding: 6px 3px 2px 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.heading{
+   text-align: right !important
+}
+root@hub:/var/www/html/css# cl;ear; cat mods.css
+bash: cl: command not found
+bash: ear: command not found
+@font-face {
+    font-family: Roboto;
+     src: url('../fonts/Roboto-Regular.ttf');
+}
+
+body{
+    background-color: #1d2a35 !important;
+    color: #ddd !important;
+    font-family: "Roboto";
+}
+
+@keyframes grad {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes loop {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.container{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+.item{
+    width: 290px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.json-data{
+    background-image: linear-gradient(to bottom right, #1b2838, #1f3144);
+    border: 1px solid #2196F3;
+    height: 545px;
+}
+
+.wsid{
+    font-size: smaller;
+    padding-top: 5px;
+}
+.mod{
+    font-size: smaller;
+    padding-bottom: 5px;
+}
+
+.name{
+    padding-left: 10px;
+}
+
+.preview-image{
+/*    position: relative;
+    left: 345px;
+    top: -35px;
+*/
+    padding-left: 10px;
+}
+
+
+.file-size{
+    padding-left: 10px;
+}
+
+.posted{
+    padding-left: 10px;
+}
+
+.stars{
+    float:left
+    margin: 10px 10px;
+    padding: 5px 0 0 10px;
+}
+
+.creator{
+
+}
+
+.creator-image{
+
+}
+
+.creator-status{
+
+}
+
+.creator-name{
+    padding-bottom: 15px;
+}
+
+.tab{
+    background-image: linear-gradient(to bottom right, #1b2838, #2196F3);
+    border: 1px solid #2196F3;
+    position: relative;
+    top: -7px;
+    left: 8px;
+    width: fit-content;
+    max-width: 272px;
+    padding: 8px;
+    margin: -8px;
+}
+.subscribers{
+    visibility: hidden;
+    float: right;
+    margin: -36px -7px;
+    font-size: small;
+}
+
+.remove-button{
+    position: relative;
+    top: -40px;
+    width: -webkit-fill-available;
+    height: 40px;
+    color: #DDDDDD;
+    font-size: x-large;
+    background-image: linear-gradient(#841b06, #5c1405);
+}
+.remove-button:hover {
+    position: relative;
+    top: -40px;
+    width: -webkit-fill-available;
+    height: 40px;
+    color: #DDDDDD;
+    font-size: x-large;
+    background-image: linear-gradient(#d62300, #b61f00);
+}
+.add-button{
+    width: -webkit-fill-available;
+    height: 40px;
+    color: #DDDDDD;
+    font-size: x-large;
+    background-image: linear-gradient(#799907, #536904);
+    visibility: hidden;
+}
+.add-button:hover {
+    width: -webkit-fill-available;
+    height: 40px;
+    color: #DDDDDD;
+    font-size: x-large;
+    background-image: linear-gradient(#66d900, #52ae05);
+    visibility: hidden;
+}
+
+.writebutton{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background: #d62300;
+    padding: 15px;
+}
+
+.implement{
+    font-size: x-large;
+    animation: fadeIn 1s;
+}
+
+.implement:hover{
+    font-size: x-large;
+}
